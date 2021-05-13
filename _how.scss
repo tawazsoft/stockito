@@ -1,0 +1,70 @@
+.how{
+    background-color: #F7F5F5;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h2{
+        font-size: 48px;
+        margin: 50px auto;
+        color: #95989A;
+    }
+    a{
+        background-color: #FD750E;
+        height: 54px;
+        width: 240px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        color: white;
+        align-items: center;
+    }
+    .how-inner{
+        display: flex;flex-direction: column;;
+        justify-content: center;
+        align-items: center;
+        
+
+        p{
+            text-align: center;
+        
+        }
+        :nth-child(1){
+            z-index: 1;
+            height: 14vh;
+        }
+        :nth-child(3){
+            height: 15vh;
+            z-index: 2;
+        }
+        :nth-child(4){
+            height: 15vh;
+        }
+        :nth-child(5){
+            position: absolute;
+            right: 22%;
+            height: 26%;
+            display: none;
+            
+           
+        }
+        :nth-child(6){
+            position: absolute;
+            position: absolute;
+            top: 131rem;
+            right: 20rem;
+
+            display: none;
+        }
+        :nth-child(1),:nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5){
+            margin: 20px auto;
+        }
+    }
+}
+
+
+
+
+

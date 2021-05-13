@@ -1,0 +1,80 @@
+footer{
+    height: 1140px;
+    width: 100%;
+    background-color: #3D0D0D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    li{
+        margin: 1px auto;
+
+        a{
+            color: white;
+        }
+    }
+    h4{
+        color: white;
+    }
+    p{
+        color: white;
+        
+    }
+    
+    .foter{
+        margin-top: 25px;
+        h3{
+            color: white;
+        }
+    }
+
+    .footer-inner{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+.t{
+display: block;
+}
+
+        img{
+            height: 241px;
+            width: inherit;
+
+        }
+        p{
+            margin: 20px auto;
+        }
+        
+    }
+
+    hr{
+      border: 1px solid grey;  
+    }
+
+    .copy{
+        display: flex;
+        justify-content: space-between;
+         flex-direction: column;
+        .copy-inner{
+            display: flex;
+            h3{
+                font-size: 20px;
+                color: white;
+                margin-right: 20px;
+            }
+
+            a{
+                margin: auto 10px;
+            }
+
+            #muscle{
+                color: #BCC1C4 !important;
+                font-size: 20px;
+            margin: 10px auto;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.mark{
+    height: 1200px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+
+    h2{
+        font-size: 48px;
+        margin: 50px auto;
+        color: #95989A;
+    }
+
+    .mark-inner{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        p{
+            font-size: 20px;
+            margin: 20px auto;
+            color: #95989A;
+        }
+        h3{
+            font-size: 20px;
+            color:#95989A ;
+        }
+        h3:hover{
+            color: blue;
+        }
+        span{
+            color: #95989A;
+        }
+
+        input{
+            height: 47px;
+            width: 100%;
+            border: 2px solid #95989A;
+            margin: 14px auto;
+            
+        }
+        a{
+            background-color: #FD750E;
+            height: 54px;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            color: white;
+            align-items: center;
+            margin: 30px auto;
+        }
+    }
+}

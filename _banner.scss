@@ -1,0 +1,51 @@
+.banner{
+    background:linear-gradient(to bottom, #0b1f3a79, #0b1f3a44), url(./img/office-336368_1920.png) ;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .banner-text{
+        h1{
+            font-size: 22px;
+            color: white;
+            margin: 10px auto;
+        }
+    }
+    .banner-form{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.banner-inner{
+    display: flex;
+    justify-content: center;
+}
+
+
+.banner-form{
+    p{
+        color: white;
+    }
+    a{
+        height: 54px;
+        background-color: #FD750E;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    input{
+        height: 54px;
+        width: 100%;
+        margin: 10px auto;
+        outline-style: none;
+    }
+}

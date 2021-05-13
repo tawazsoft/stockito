@@ -1,0 +1,48 @@
+.about{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     height: 850px;
+     width: 100%;
+     align-items: center;
+     background-color: #F9F9F9;
+    h2{
+        font-size: 36px;
+        margin: 20px auto;
+        color: #95989A;
+    }
+    .inner{
+        display: flex;
+        align-items: center;
+        margin: 20px auto;
+        text-align: left;
+
+        p{
+            color: #95989A;
+        }
+    }
+
+    .inner-video{
+        height: 100% ;
+        width: 100%;
+        align-items: center;
+
+        video{
+            height: 100%;
+            width: 100%;
+        }
+
+
+    }
+    a{
+        background-color: #FD750E;
+        height: 54px;
+        width: 240px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        color: white;
+        align-items: center;
+        
+    }
+}
